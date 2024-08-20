@@ -77,7 +77,8 @@ print(result)
     "starType": "A1(V)",
     "temp": 9500,
     "color": "0xbaccff"
-  }
+  },
+  "code": 200
 }
 ```
 
