@@ -10,10 +10,10 @@ class StarslookupAPIClient:
         
         self.api_key = api_key
         self.secure = secure
-        self.base_url = 'https://api.apiverve.com/v1.0.9/starslookup'
+        self.base_url = 'https://api.apiverve.com/v1/starslookup'
         self.headers = {
             'x-api-key': self.api_key,
-            'auth-mode': 'pypi'
+            'auth-mode': 'pypi-package'
         }
 
     def execute(self, params=None):
